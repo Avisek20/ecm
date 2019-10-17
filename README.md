@@ -1,6 +1,6 @@
 # Entropy c-Means Clustering
 
-Entropy c-Means identifies fuzzy clusters by simultaneously optimizing two contradictory objectives: objective $f_1$ identifies compact clusters, whereas objective $f_2$ identifies overlapped clusters.
+Entropy c-Means identifies fuzzy clusters by simultaneously optimizing two contradictory objectives: objective f_1 identifies compact clusters, whereas objective f_2 identifies overlapped clusters.
 
 ![objective 1](https://raw.githubusercontent.com/Avisek20/ecm/master/imgs/obj1.png)
 

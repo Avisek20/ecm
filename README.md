@@ -2,11 +2,9 @@
 
 Entropy c-Means identifies fuzzy clusters by simultaneously optimizing two contradictory objectives: objective $f_1$ identifies compact clusters, whereas objective $f_2$ identifies overlapped clusters.
 
-```
-$\min f_1 = \sum_{i=1}^{N} \sum_{j=1}^{c} \mu_{ij} ||x_i - v_j||^2$
+![objective 1](https://github.com/Avisek20/ecm/imgs/obj1,png)
 
-$\max f_2 = - \sum_{i=1}^{N} \sum_{j=1}^{c} \mu_{ij} \log(\mu_{ij})$
-```
+![objective 2](https://github.com/Avisek20/ecm/imgs/obj2,png)
 
 Paper Source: [Gupta A., Datta S. and Das S., "Fuzzy Clustering to Identify Clusters at Different Levels of Fuzziness: An Evolutionary Multiobjective Optimization Approach," in IEEE Transactions on Cybernetics, 2019.](https://ieeexplore.ieee.org/document/8692725)
 
